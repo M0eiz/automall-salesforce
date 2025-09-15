@@ -1,22 +1,36 @@
-# AutoMall — Salesforce Admin Project
+# 🚗 AutoMall CRM – a Salesforce CRM for a used-car dealership
 
-**Project:** AutoMall — a Salesforce CRM for a used-car dealership (inventory + test drives).
+## 📌 Overview
+I built a Salesforce CRM project for a fictional used-car dealership, **AutoMall**, to practice real-world Salesforce Administration skills.  
+The CRM allows managing vehicles, scheduling test drives, assigning leads, and tracking dealership performance.
 
-## Overview
-Built a mini CRM to manage vehicle inventory, schedule test drives, run automations (Flows), and produce business dashboards.
+---
 
-## What's included
-- Custom objects: **Vehicle**, **Test Drive**  
-- Automations: Test drive confirmation email, update vehicle status when test drive completes  
-- Security: Roles (Sales Manager, Sales Rep, Service Tech), Profiles, Permission Set  
-- Data: Sample inventory CSV import  
-- Reports & Dashboard: Inventory and Test Drive activity
+## 🚀 Key Features
 
-## How to demo
-1. Open **Vehicles** → view a vehicle record.  
-2. Create a **Test Drive** record → observe the Flow or simulated result.  
-3. View the **AutoMall Dashboard**.
+### 🔹 Custom Objects
+- **Vehicle__c**: Stores inventory with fields like Make, Model, Year, Price, and Status.  
+- **TestDrive__c**: Tracks customer test drives with relationships to Vehicle and Lead.  
 
+### 🔹 Automation (Flows)
+- Vehicle status auto-updates when a Test Drive is scheduled or completed.  
+- Email notifications sent to Sales Reps when test drives are booked.  
+- Automatic lead assignment based on source.  
+
+### 🔹 Security Setup
+- Roles: **Sales Manager, Sales Rep, Service Tech**  
+- Profiles & Permission Sets to control object and field access.  
+
+### 🔹 Data Management
+- Imported vehicle inventory using **Data Import Wizard**.  
+- Validation rules to ensure clean and consistent data (e.g., Price > 0).  
+
+### 🔹 Dashboards & Reports
+- Track vehicle availability.  
+- Measure test drive conversions.  
+- Analyze lead sources for sales insights.  
+
+---
 ## Screenshots
 ### Vehicle object
 ![Vehicle Object](automall%20-%20screenshots/Automall%20-%20vehicles.png)
@@ -36,7 +50,26 @@ Built a mini CRM to manage vehicle inventory, schedule test drives, run automati
 ### Dashboard overview
 ![Dashboard Overview](automall%20-%20screenshots/dashboard.png)
 
+---
 
+## 🛠️ Tools & Skills Used
+- Salesforce (Admin Configuration)  
+- Data Import Wizard  
+- Validation Rules & Flows  
+- Profiles, Roles, Permission Sets  
+- Dashboards & Reports  
+
+---
+
+## 📖 Learning Outcome
+This project strengthened my hands-on Salesforce Admin skills, especially in:  
+- Designing custom objects and relationships  
+- Automating processes with flows  
+- Enforcing security with profiles & roles  
+- Managing data imports and validation rules  
+- Building dashboards for business insights  
+
+---
 
 ## Contact
 Your Name — moeiz.malik@icloud.com  
